@@ -1,15 +1,42 @@
 
+h2 {
+  text-transform: uppercase;
+text-decoration: underline;
+text-align: center;
+text-decoration-color: #9ed5b4;
 
+
+}
+
+a{
+  font-size: smaller;
+  text-transform: uppercase;
+  margin-left: inherit;
+
+}
 h1 {
-  margin-left: 26rem;
+  text-align: center;
   font-size: 40px;
   font-family: sans-serif;
   font-weight: normal;
+  text-transform: uppercase;
 }
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
+  display: inline-block;
+margin: auto;
+width: 18rem;
+margin-left: 3rem;
 
+}
+ img {
+   width: 17rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info {
+  text-transform: capitalize;
+  text-align: center;
 }
