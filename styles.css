@@ -1,19 +1,24 @@
-
 h2 {
   text-transform: uppercase;
-text-decoration: underline;
-text-align: center;
-text-decoration-color: #9ed5b4;
-
-
+  text-decoration: underline;
+  text-align: center;
+  text-decoration-color: #9ed5b4;
 }
 
-a{
+a {
+  text-align: center;
+  display: block;
   font-size: smaller;
   text-transform: uppercase;
-  margin-left: inherit;
 
 }
+
+.loc {
+  text-align: center;
+
+  text-transform: capitalize;
+}
+
 h1 {
   text-align: center;
   font-size: 40px;
@@ -24,19 +29,31 @@ h1 {
 
 .container {
   display: inline-block;
-margin: auto;
-width: 18rem;
-margin-left: 3rem;
-
+  margin: auto;
+  width: 18rem;
+  margin-left: 3rem;
 }
- img {
-   width: 17rem;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+img {
+  width: 17rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .info {
   text-transform: capitalize;
   text-align: center;
+}
+
+.ssn{
+  color: transparent;
+  text-shadow: 0 0 5px #9ed5b4;
+  padding-bottom: 15px;
+  text-align: center;
+padding-top: 15px;
+}
+
+.ssn:hover{
+  color:black;
 }
